@@ -2,7 +2,7 @@
 
 
 1: 
-docker-compose up -d --build
+docker-compose up -d --build \
 http://localhost:8080
 
 
