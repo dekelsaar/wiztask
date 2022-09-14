@@ -1,0 +1,10 @@
+jenkins:
+  systemMessage: "Jenkins"
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "admin"
+        - id: "dekel"
+          password: "dekel"

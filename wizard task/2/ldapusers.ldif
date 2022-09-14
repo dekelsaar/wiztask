@@ -1,0 +1,23 @@
+#dn: uid=jojo,ou=people,dc=example,dc=com
+#objectClass: inetOrgPerson
+#objectClass: posixAccount
+#objectClass: shadowAccount
+#cn: jojo
+#sn: jo
+#userPassword: 555
+#loginShell: /bin/bash
+#uidNumber: 2000
+#gidNumber: 2000
+#homeDirectory: /home/jojo
+#
+dn: uid=bobo,ou=people,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: bobo
+sn: bo
+userPassword: 666
+loginShell: /bin/bash
+uidNumber: 2001
+gidNumber: 2000
+homeDirectory: /home/bobo
