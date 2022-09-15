@@ -8,10 +8,8 @@ services:
     # To disable the security labeling for this container
     privileged: true
 
-    # Container User if required
     user: root
     
-    # choose container name 
     container_name: jenkins-casc
 
     # Listen on the desired ports
@@ -21,11 +19,10 @@ services:
       - 8080:8080
       - 50000:50000
       
-    # the mount volumes
     volumes:
       - ./jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
-    # Skip the setup wizard
+ 
     environment:
       - jenkins.install.runSetupWizard=false
 
